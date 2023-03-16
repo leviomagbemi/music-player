@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <script src="https://kit.fontawesome.com/edec7f25e3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Music Player</h1>
+  <div class="container">
+    
+    <div class="img-con">
+      <img src="Images/rBEeJGLhGEWAW5G2AAG3J7cx8lM34.jpeg" alt="Cover" class="cover">
+    </div>
+
+    <div>
+      <span class="song-title"></span>
+    </div>
+
+    <div class="durationDisplay">
+      
+    </div>
+
+    <div class="bar">
+      <span class="progress-bar"></span>
+    </div>
+
+    <div class="buttons">
+      <button id="previous" class="fa-solid fa-backward"></button>
+      <button id="play" class="fa-solid fa-play"></button>
+      <button id="next" class="fa-solid fa-forward"></button>
+    </div>
+
+  </div>
+  <audio src="songs/Burna_Boy_-_Last_Last_Breakfast_.mp3" id="audio"></audio>
+  <script src="app.js"></script>
+</body>
+</html>
